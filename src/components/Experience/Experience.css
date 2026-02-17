@@ -1,0 +1,122 @@
+/* ===== Experience Section ===== */
+.experience__timeline {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-left: 2.5em;
+}
+
+/* Vertical line */
+.experience__line {
+    position: absolute;
+    left: 0.75em;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: var(--clr-primary);
+    opacity: 0.4;
+}
+
+/* Card */
+.experience__card {
+    position: relative;
+    padding: 1.5em;
+    margin-bottom: 2em;
+    background-color: var(--clr-bg-alt);
+    box-shadow: var(--shadow);
+    border-radius: 4px;
+}
+
+/* Dot on the timeline */
+.experience__card::before {
+    content: '';
+    position: absolute;
+    left: -2.05em;
+    top: 1.8em;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--clr-primary);
+    border: 2px solid var(--clr-bg);
+}
+
+/* Header: logo + meta */
+.experience__header {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+.experience__logo-link {
+    flex-shrink: 0;
+}
+
+.experience__logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+    object-fit: contain;
+    background-color: #fff;
+    padding: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experience__meta {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience__role {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--clr-fg-alt);
+}
+
+.experience__company {
+    font-size: 0.95rem;
+    color: var(--clr-primary);
+    font-weight: 500;
+}
+
+.experience__period {
+    font-size: 0.85rem;
+    color: var(--clr-fg);
+    margin-top: 0.2em;
+}
+
+/* Contributions list */
+.experience__contributions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.experience__contribution {
+    position: relative;
+    padding-left: 1.2em;
+    margin-bottom: 0.5em;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--clr-fg);
+}
+
+.experience__contribution::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: var(--clr-primary);
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .experience__timeline {
+        padding-left: 2em;
+    }
+
+    .experience__card::before {
+        left: -1.55em;
+        width: 10px;
+        height: 10px;
+    }
+}
