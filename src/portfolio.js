@@ -1,6 +1,6 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://github.com/man2k1',
+  homepage: 'https://github.com/mano2k1',
   title: 'Mj.',
 }
 
@@ -8,14 +8,14 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Manoj S',
   role: 'Backend Software Engineer',
-  picture: 'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/me.jpeg',
+  picture: 'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/me.png',
 
   description:
     'I\'m a Backend Software Engineer with hands-on experience building large-scale SaaS systems that are reliable under production workloads. My work spans designing RESTful APIs, multi-threaded workflows, and Kafka-driven async processing — all with a focus on performance and reliability.I care deeply about clean, maintainable code and enjoy working closely with cross-functional teams to ship end-to-end features the right way.',
-  resume: 'https://drive.google.com/file/d/1qWdQxtgZaKR0Z7brR4sjTszXdUBdPLPU/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1Te2O2T9jO_ScAsu0DUHixxPwul6hAk7Z/view?usp=sharing',
   social: {
-    linkedin: 'https://www.linkedin.com/in/manoj-saravanan21/',
-    github: 'https://github.com/man2k1',
+    linkedin: 'https://www.linkedin.com/in/manojks21/',
+    github: 'https://github.com/mano2k1',
   },
 }
 
@@ -28,17 +28,17 @@ const projects = [
     description:
       'A real-time Markdown editor that lets multiple team users write and edit technical documentation simultaneously — without stepping on each other\'s changes. Built using custom Operational Transformation (OT) to handle conflict resolution seamlessly.',
     stack: ['Java', 'Spring Boot', 'PostgreSQL', 'Hibernate', 'Redis', 'MQ', 'React', 'Tailwind CSS', 'Git', 'Docker'],
-    sourceCode: 'https://github.com/man2k1/draftly',
+    sourceCode: 'https://github.com/mano2k1/draftly',
     livePreview: 'https://drive.google.com/file/d/1vgIE_f_TPjddi0a2fKDGeWJB8Z-5ntU2/view',
     images: [
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/draftly/home.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/draftly/signup_form.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/draftly/documents.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/draftly/share_modal.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/draftly/collab.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/draftly/editor.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/draftly/editor2.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/draftly/about.png'
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/draftly/home.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/draftly/signup_form.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/draftly/documents.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/draftly/share_modal.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/draftly/collab.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/draftly/editor.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/draftly/editor2.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/draftly/about.png'
     ],
   },
   {
@@ -46,20 +46,20 @@ const projects = [
     description:
       'A full-stack web application built for KPR Institute to digitize and manage 4 years of academic records — completely replacing a legacy manual booklet system. Deployed on AWS EC2, the platform features granular Role-Based Access Control (RBAC) across Admin, Faculty, and Student roles, a request-based update workflow, CGPA trend graphs, report generation, automated student onboarding through CSV bulk-processing, and more.',
     stack: ['Java', 'Servlets', 'MySQL', 'Hibernate', 'Javascript', 'JQuery', 'HTML', 'CSS', 'Git', 'AWS'],
-    sourceCode: 'https://github.com/man2k1/fyp-sims',
+    sourceCode: 'https://github.com/mano2k1/fyp-sims',
     livePreview: 'http://sims-manager.herokuapp.com/login',
     images: [
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/sims/student_home.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/sims/login.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/sims/student_book.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/sims/student_sem.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/sims/mentor_approval_view.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/sims/mentor_student_list.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/sims/mentor_import_students.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/sims/mentor_report_gen.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/sims/mentor_book.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/sims/mentor_sem.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/sims/admin_subjects.png'
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/sims/student_home.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/sims/login.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/sims/student_book.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/sims/student_sem.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/sims/mentor_approval_view.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/sims/mentor_student_list.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/sims/mentor_import_students.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/sims/mentor_report_gen.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/sims/mentor_book.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/sims/mentor_sem.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/sims/admin_subjects.png'
     ],
   },
   {
@@ -70,12 +70,12 @@ const projects = [
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
     images: [
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/ecom/ecom_tv_view.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/ecom/ecom_tv_view2.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/ecom/ecom_tv.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/ecom/ecom_review.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/ecom/ecom_cart.png',
-      'https://raw.githubusercontent.com/man2k1/assets/refs/heads/main/projects/ecom/ecom_brand.png'
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/ecom/ecom_tv_view.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/ecom/ecom_tv_view2.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/ecom/ecom_tv.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/ecom/ecom_review.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/ecom/ecom_cart.png',
+      'https://raw.githubusercontent.com/mano2k1/assets/refs/heads/main/projects/ecom/ecom_brand.png'
     ],
   },
 ]
@@ -122,7 +122,7 @@ const experience = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'manoj.s2k1@mail.com',
+  email: 'manoj.21ks@gmail.com',
 }
 
 export { header, about, projects, skills, experience, contact }
