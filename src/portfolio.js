@@ -12,7 +12,7 @@ const about = {
 
   description:
     'I\'m a Backend Software Engineer with hands-on experience building large-scale SaaS systems that are reliable under production workloads. My work spans designing RESTful APIs, multi-threaded workflows, and Kafka-driven async processing — all with a focus on performance and reliability.I care deeply about clean, maintainable code and enjoy working closely with cross-functional teams to ship end-to-end features the right way.',
-  resume: 'https://drive.google.com/file/d/1Te2O2T9jO_ScAsu0DUHixxPwul6hAk7Z/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1p-_OinRy9io3HtzUAn87-s5r-0ho4I1i/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/manojks21/',
     github: 'https://github.com/mano2k1',
@@ -122,7 +122,7 @@ const experience = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'manoj.21ks@gmail.com',
+  email: 'manoj.s2k1@gmail.com',
 }
 
 export { header, about, projects, skills, experience, contact }
